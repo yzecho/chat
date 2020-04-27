@@ -1,0 +1,11 @@
+GET http://localhost:8081/api/info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Inl6ZWNobyIsImV4cCI6MTU4NzkwMzMxOCwiaXNzIjoibXktcHJvamVjdCJ9.QJDVWcyHLDZyv_7p0IwZ0oCYnV9oMYk2uOfSakoHoM4
+
+###
+POST http://localhost:8081/api/login
+Content-Type: application/json
+
+{
+  "username": "yzecho",
+  "password": "123456"
+}
